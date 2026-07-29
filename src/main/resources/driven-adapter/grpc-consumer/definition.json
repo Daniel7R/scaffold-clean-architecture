@@ -1,0 +1,15 @@
+{
+  "folders": [
+    "infrastructure/driven-adapters/grpc-consumer/src/main/java/{{packagePath}}/grpc",
+    "infrastructure/driven-adapters/grpc-consumer/src/main/java/{{packagePath}}/grpc/config",
+    "infrastructure/driven-adapters/grpc-consumer/src/main/proto",
+    "infrastructure/driven-adapters/grpc-consumer/src/test/java/{{packagePath}}/grpc"
+  ],
+  "files": {
+    "driven-adapter/grpc-consumer/build.gradle.mustache": "infrastructure/driven-adapters/grpc-consumer/build.gradle",
+    "driven-adapter/grpc-consumer/grpc-consumer.java.mustache": "infrastructure/driven-adapters/grpc-consumer/src/main/java/{{packagePath}}/grpc/GrpcConsumerAdapter.java",
+    "driven-adapter/grpc-consumer/config/grpc-consumer-config.java.mustache": "infrastructure/driven-adapters/grpc-consumer/src/main/java/{{packagePath}}/grpc/config/GrpcClientConfig.java",
+    "driven-adapter/grpc-consumer/grpc-consumer.test.java.mustache": "infrastructure/driven-adapters/grpc-consumer/src/test/java/{{packagePath}}/grpc/GrpcConsumerAdapterTest.java",
+    "driven-adapter/grpc-consumer/service.proto.mustache": "infrastructure/driven-adapters/grpc-consumer/src/main/proto/service.proto"
+  }
+}
